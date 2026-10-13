@@ -1,0 +1,47 @@
+{
+  "id": "sterilization-validation",
+  "title": "灭菌与清洁验证计算器（EO/湿热/辐照/清洁/内毒素）",
+  "description": "医疗器械灭菌与清洁验证的常用计算器：EO 灭菌 BI 存活分数与过度杀灭法判据、湿热灭菌 F0 累积、辐照灭菌 ISO 11137 Method 1 VDmax 剂量设定、清洁验证残留限值（PDE/单位面积法/10 ppm 经验法）、细菌内毒素限值（K/M 法）。覆盖骨科植入物清洁验证/内毒素检验的真实工程场景。",
+  "triggers": {
+    "keywords": [
+      "sterilization",
+      "eo",
+      "f0",
+      "iso11137",
+      "iso17665",
+      "iso11135",
+      "cleaning-validation",
+      "endotoxin",
+      "灭菌验证",
+      "清洁验证",
+      "内毒素"
+    ],
+    "file_patterns": [
+      "sterilization_val.py"
+    ],
+    "intents": [
+      "灭菌验证计算",
+      "F0 计算",
+      "清洁验证限值",
+      "内毒素限值"
+    ]
+  },
+  "provides": [
+    "sterilization-validation",
+    "f0-calc",
+    "cleaning-limit",
+    "endotoxin-limit"
+  ],
+  "skills": [],
+  "needs_backends": [],
+  "license": "Apache-2.0",
+  "upstream": null,
+  "cost": "low",
+  "lazy": true,
+  "nested": true,
+  "entry": "scripts/sterilization_val.py",
+  "deps": [],
+  "generated_by": "lgd-skeleton/1.0 (manual port from rea scaffold)",
+  "idea": "灭菌/清洁验证计算器（EO/湿热/辐照 + 清洁残留 + 内毒素限值）",
+  "extension_note": "新增计算模型：在 MODELS 注册表加一个函数即可。"
+}

@@ -1,0 +1,8 @@
+sterilization-validation
+========================
+可插拔模块（lgd-skeleton/1.0）。灭菌与清洁验证计算器（EO/湿热/辐照/清洁/内毒素）。
+入口: scripts/sterilization_val.py
+元数据: module.json
+总入口: medical-ai-toolkit
+关联: manufacturing-gmp, biocompatibility-iso10993, design-controls-toolkit
+许可: Apache-2.0 · 贡献者: @stevenzhao07 (MedXpert)
