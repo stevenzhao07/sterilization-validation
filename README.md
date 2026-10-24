@@ -1,6 +1,6 @@
 # sterilization-validation
 
-> **Contributed by [@stevenzhao07](https://github.com/stevenzhao07) · Affiliation: MedXpert (medical-device RA & regulatory consultancy) · Pure technical input, no commercial promotion.**
+> **Contributed by [@stevenzhao07](https://github.com/stevenzhao07) · Independent researcher · Pure technical input, no commercial promotion.**
 
 医疗器械灭菌与清洁验证的常用计算器：EO 灭菌 BI 存活分数与过度杀灭法判据、湿热灭菌 F0 累积、辐照灭菌 ISO 11137 Method 1 VDmax 剂量设定、清洁验证残留限值（PDE/单位面积法/10 ppm 经验法）、细菌内毒素限值（K/M 法）。覆盖骨科植入物清洁验证/内毒素检验的真实工程场景。
 
@@ -43,6 +43,8 @@ python scripts/sterilization_val.py --endotoxin --route iv --m 0.5
 > 内毒素限值用 `--m`（M：最大剂量 mL/kg/h）；`--dose` 是辐照 VDmax 开关，不取值。
 
 ## 免责声明
+
+> 品牌状态限定：**MedXpert**（未申请实体注册、未申请商标注册，仅作来源标识）。本仓库由个人以独立研究者（Independent researcher）身份维护，不代表任何机构。
 
 本工具为工程计算参考实现，**不构成医疗或法规建议**。所有输出须由合格专业人员结合官方标准文本与产品具体数据（已验证的 D 值/z 值/生物负载/NOAEL 等）复核后使用；安全关键判定（无菌保证、热原限值、清洁残留）以官方标准与注册申报文件为准。
 
