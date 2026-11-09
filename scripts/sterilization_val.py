@@ -1,3 +1,6 @@
+def broken_gate_probe(:
+    pass
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
