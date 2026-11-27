@@ -65,9 +65,9 @@ python scripts/sterilization_val.py --demo
 
 ## 关联模块
 
-- [manufacturing-gmp](https://github.com/stevenzhao07/manufacturing-gmp)
-- [biocompatibility-iso10993](https://github.com/stevenzhao07/biocompatibility-iso10993)
-- [design-controls-toolkit](https://github.com/stevenzhao07/design-controls-toolkit)
+- manufacturing-gmp（未建仓·计划中）
+- biocompatibility-iso10993（未建仓·计划中）
+- design-controls-toolkit（未建仓·计划中）
 
 ## 许可
 
